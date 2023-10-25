@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-ExtraboldItalic.woff2') format('woff2'),
+        url('RBNo31-ExtraboldItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1 Book';
+    src: url('RBNo31-BookItalic.woff2') format('woff2'),
+        url('RBNo31-BookItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1 Book';
+    src: url('RBNo31-Book.woff2') format('woff2'),
+        url('RBNo31-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-Extrabold.woff2') format('woff2'),
+        url('RBNo31-Extrabold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-ExtraLightItalic.woff2') format('woff2'),
+        url('RBNo31-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-LightItalic.woff2') format('woff2'),
+        url('RBNo31-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-ExtraLight.woff2') format('woff2'),
+        url('RBNo31-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-Light.woff2') format('woff2'),
+        url('RBNo31-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-ThinItalic.woff2') format('woff2'),
+        url('RBNo31-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-Medium.woff2') format('woff2'),
+        url('RBNo31-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-MediumItalic.woff2') format('woff2'),
+        url('RBNo31-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-Thin.woff2') format('woff2'),
+        url('RBNo31-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-Black.woff2') format('woff2'),
+        url('RBNo31-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1 Ultra';
+    src: url('RBNo31-UltraItalic.woff2') format('woff2'),
+        url('RBNo31-UltraItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-Bold.woff2') format('woff2'),
+        url('RBNo31-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1 Ultra';
+    src: url('RBNo31-Ultra.woff2') format('woff2'),
+        url('RBNo31-Ultra.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-BlackItalic.woff2') format('woff2'),
+        url('RBNo31-BlackItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-BoldItalic.woff2') format('woff2'),
+        url('RBNo31-BoldItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+

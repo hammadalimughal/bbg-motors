@@ -2,12 +2,16 @@
 <html>
 
 <head>
-    <title><?php if(isset($page) && is_string($page)){echo $page;}else{echo 'Fitness Apparel & Accessories | Revolt Cara';} ?></title>
+    <title>
+        <?php if(isset($page) && is_string($page)){echo $page;}else{echo 'Fitness Apparel & Accessories | Revolt Cara';} ?>
+    </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content=<?php if(isset($pageTag) && is_string($pageTag)){echo $pageTag;}else{echo 'desired tag';} ?> />
-    <meta name="description" content=<?php if(isset($pageDesc) && is_string($pageDesc)){echo $pageDesc;}else{echo 'desired description';} ?> />
-    <link rel="shortcut icon" href="media/favicon.png" />
+    <meta name="keywords"
+        content=<?php if(isset($pageTag) && is_string($pageTag)){echo $pageTag;}else{echo 'desired tag';} ?> />
+    <meta name="description"
+        content=<?php if(isset($pageDesc) && is_string($pageDesc)){echo $pageDesc;}else{echo 'desired description';} ?> />
+    <link rel="shortcut icon" href="images/favicon.png" />
     <link href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/animate.min.css" rel="stylesheet" type="text/css">
@@ -21,4 +25,78 @@
 </head>
 
 <body>
-    
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="topbar-content">
+                <ul class="topbar-items">
+                    <li>
+                        <a href="javascript:;">
+                            <i class="fa-solid fa-clock"></i>
+                            10.00 AM to 9.00 PM
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+971 58 543 8686">
+                            <i class="fa-solid fa-phone"></i>
+                            +971 58 543 8686
+                        </a>
+                    </li>
+                </ul>
+                <a href="index.php" class="navbar-brand">
+                    <img class="img-fluid" src="images/logo.png" alt="">
+                </a>
+                <ul class="topbar-items end">
+                    <li>
+                        <a href="mailto:info@domain.com">
+                            <i class="fa-solid fa-envelope"></i>
+                            info@domain.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <i class="fa-solid fa-location-dot"></i>
+                            visit us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" href="index.php">Home</a>
+                            </li>
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" href="javascript:;">Inventory</a>
+                            </li>
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" href="javascript:;">About Us</a>
+                            </li>
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" href="javascript:;">Contact Us</a>
+                            </li>
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" href="javascript:;">Sell a Car</a>
+                            </li>
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" href="javascript:;">360° View</a>
+                            </li>
+                            <li class="nav-item custom-nav-item">
+                                <a class="nav-link custom-nav-link" href="javascript:;">News</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>

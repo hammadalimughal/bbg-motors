@@ -16,3 +16,29 @@ $(window).scroll(function (e) {
     $("header").removeClass("scroll");
   }
 });
+$('#brands-slider').owlCarousel({
+  loop: true,
+  margin: 10,
+  autoplay: true,
+  nav: false,
+  dots: false,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 5
+    }
+  }
+})
+$('#tesimonial-slider').owlCarousel({
+  loop: true,
+  margin: 10,
+  autoplay: true,
+  nav: false,
+  dots: false,
+  items: 1
+})
