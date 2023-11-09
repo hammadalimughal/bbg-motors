@@ -341,7 +341,7 @@ $page = 'home';
     <section class="special-offer">
         <div class="container">
             <div class="special-offer-content" style="background-image: url(images/special-offer.png)">
-                <div class="col-5">
+                <div class="col-lg-5">
                     <h2 class="theme-h2">Special Offers Cars</h2>
                     <p class="theme-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                     <a href="javascript:;" class="theme-btn">View All Cars</a>
@@ -353,11 +353,47 @@ $page = 'home';
         <div class="container">
             <div class="testimonial-slider">
                 <h2 class="theme-h2">Testimonials</h2>
-                <p class="theme-p">What they say</p>
+                <p class="theme-p p-seperator">What they say</p>
                 <div id="tesimonial-slider" class="owl-carousel owl-theme">
-                    <div class="item">
+                    <div class="item" data-hash="client-1" data-dot="<a href='#client-1'><img class='img-fluid' src='images/client-1.png'></a>">
                         <div class="slide-item">
                             <p class="theme-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                        </div>
+                    </div>
+                    <div class="item" data-hash="client-2" data-dot="<a href='#client-2'><img class='img-fluid' src='images/client-2.png'></a>">
+                        <div class="slide-item">
+                            <p class="theme-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                        </div>
+                    </div>
+                    <div class="item" data-hash="client-3" data-dot="<a href='#client-3'><img class='img-fluid' src='images/client-3.png'></a>">
+                        <div class="slide-item">
+                            <p class="theme-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="promotion-section">
+        <div class="container">
+            <div class="row g-lg-5 g-4">
+                <div class="col-lg-6 col-12">
+                    <div class="promotion-card">
+                        <img src="images/promotion-1.png" alt="" class="featured-img w-100">
+                        <div class="content">
+                            <h4 class="theme-h4">Exciting Promotion</h4>
+                            <p class="theme-p">lorem ipsum is dummy text</p>
+                            <a href="javascript:;" class="promotion-btn">Sell Your Car <span class="icon"><i class="fa-solid fa-chevron-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="promotion-card">
+                        <img src="images/promotion-2.png" alt="" class="featured-img w-100">
+                        <div class="content">
+                            <h4 class="theme-h4">Find Your Dream Car</h4>
+                            <p class="theme-p">lorem ipsum is dummy text</p>
+                            <a href="javascript:;" class="promotion-btn">Sell Your Car <span class="icon"><i class="fa-solid fa-chevron-right"></i></span></a>
                         </div>
                     </div>
                 </div>

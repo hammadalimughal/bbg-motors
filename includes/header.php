@@ -29,7 +29,7 @@
         <div class="top-header">
             <div class="container">
                 <div class="topbar-content">
-                <ul class="topbar-items">
+                <ul class="topbar-items d-lg-flex d-none">
                     <li>
                         <a href="javascript:;">
                             <i class="fa-solid fa-clock"></i>
@@ -46,7 +46,7 @@
                 <a href="index.php" class="navbar-brand">
                     <img class="img-fluid" src="images/logo.png" alt="">
                 </a>
-                <ul class="topbar-items end">
+                <ul class="topbar-items end d-lg-flex d-none">
                     <li>
                         <a href="mailto:info@domain.com">
                             <i class="fa-solid fa-envelope"></i>
@@ -60,17 +60,17 @@
                         </a>
                     </li>
                 </ul>
+                <button class="navbar-toggler d-lg-none d-block" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
             </div>
             </div>
         </div>
         <div class="main-header">
             <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <nav class="navbar navbar-expand-lg">                    
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item custom-nav-item">

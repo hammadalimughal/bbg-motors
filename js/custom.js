@@ -34,11 +34,19 @@ $('#brands-slider').owlCarousel({
     }
   }
 })
-$('#tesimonial-slider').owlCarousel({
-  loop: true,
-  margin: 10,
-  autoplay: true,
-  nav: false,
-  dots: false,
-  items: 1
+$(document).ready(function () {
+  $('#tesimonial-slider').owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    nav: true,
+    navText: ['<i class="fa-solid fa-arrow-left"></i>','<i class="fa-solid fa-arrow-right"></i>'],
+    items: 1,
+    dots: true,
+    dotsData: true,
+    URLhashListener:true,
+  });
+});
+$(".scroll-to-top").click(function(){
+  $("html, body").animate({ scrollTop: 0 }, "slow");
 })
