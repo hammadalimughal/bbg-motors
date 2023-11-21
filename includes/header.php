@@ -17,9 +17,12 @@
     <link href="css/animate.min.css" rel="stylesheet" type="text/css">
     <link href="css/aos.css" rel="stylesheet" type="text/css">
     <link href="css/fancybox.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
     <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css">
     <link href="css/jquery-ui.css" rel="stylesheet" type="text/css">
+
+    
     <link href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css">
     <link href="css/custom.css" rel="stylesheet" type="text/css">
 </head>
@@ -77,22 +80,22 @@
                                 <a class="nav-link custom-nav-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item custom-nav-item">
-                                <a class="nav-link custom-nav-link" href="javascript:;">Inventory</a>
+                                <a class="nav-link custom-nav-link" href="Inventory.php">Inventory</a>
                             </li>
                             <li class="nav-item custom-nav-item">
-                                <a class="nav-link custom-nav-link" href="javascript:;">About Us</a>
+                                <a class="nav-link custom-nav-link" href="About-us.php">About Us</a>
                             </li>
                             <li class="nav-item custom-nav-item">
-                                <a class="nav-link custom-nav-link" href="javascript:;">Contact Us</a>
+                                <a class="nav-link custom-nav-link" href="contact-us.php">Contact Us</a>
                             </li>
                             <li class="nav-item custom-nav-item">
-                                <a class="nav-link custom-nav-link" href="javascript:;">Sell a Car</a>
+                                <a class="nav-link custom-nav-link" href="Seller.php">Sell a Car</a>
                             </li>
-                            <li class="nav-item custom-nav-item">
+                            <!-- <li class="nav-item custom-nav-item">
                                 <a class="nav-link custom-nav-link" href="javascript:;">360° View</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item custom-nav-item">
-                                <a class="nav-link custom-nav-link" href="javascript:;">News</a>
+                                <a class="nav-link custom-nav-link" href="News.php">News</a>
                             </li>
                         </ul>
                     </div>
