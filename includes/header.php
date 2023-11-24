@@ -86,14 +86,14 @@
                                 <a class="nav-link custom-nav-link" href="About-us.php">About Us</a>
                             </li>
                             <li class="nav-item custom-nav-item">
-                                <a class="nav-link custom-nav-link" href="contact-us.php">Contact Us</a>
+                                <a class="nav-link custom-nav-link" href="contact-us.php" target="blank">Contact Us</a>
                             </li>
                             <li class="nav-item custom-nav-item">
                                 <a class="nav-link custom-nav-link" href="Seller.php">Sell a Car</a>
                             </li>
-                            <!-- <li class="nav-item custom-nav-item">
+                            <li class="nav-item custom-nav-item">
                                 <a class="nav-link custom-nav-link" href="javascript:;">360° View</a>
-                            </li> -->
+                            </li>
                             <li class="nav-item custom-nav-item">
                                 <a class="nav-link custom-nav-link" href="News.php">News</a>
                             </li>

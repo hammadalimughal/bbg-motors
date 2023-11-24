@@ -7,7 +7,7 @@ $page = 'home';
 <main>
     <section class="bannerst overview">
         <div class="container">
-            <div class="row">
+            <div class="row pb-5">
                 <div class="col-12">
                     <div class="banner-text">
                         <div class="main-hosting">
@@ -106,7 +106,7 @@ $page = 'home';
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-3 pt-4">
                     <div class="custom-handler">
                         <div class="mainholder">
                             <span>OUR PRICE:</span>

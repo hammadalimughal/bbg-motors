@@ -26,7 +26,7 @@ $page = 'home';
     <section class="news-details">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-9">
+                <div class="col-12 col-md-9 pb-4">
                     <div class="main-roster">
                         <h3>We believe the cars we offer are <br >the highest quality</h3>
                         <div class="details-img">
@@ -42,7 +42,7 @@ $page = 'home';
                                 elementum elit ultrices tellus elementum, et molestie nulla pharetra.</p>
                         </div>
                         <div class="row align-items-center">
-                            <div class="col-md-12 col-12">
+                            <div class="col-md-12 col-12 pb-4">
                                 <div class="is-working">
                                     <img class="img-fluid" src="images/news-detail.jpg" alt="">
                                 </div>

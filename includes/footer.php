@@ -10,21 +10,21 @@
                     <div class="col-lg-4 col-12">
                         <h4 class="footer-head">Useful Links</h4>
                         <ul class="footer-links">
-                            <li><a href="javascript:;">Home</a></li>
-                            <li><a href="javascript:;">About Us</a></li>
-                            <li><a href="javascript:;">Our Stock</a></li>
-                            <li><a href="javascript:;">FAQ's</a></li>
-                            <li><a href="javascript:;">Contact Us</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="About-us.php">About Us</a></li>
+                            <!-- <li><a href="javascript:;">Our Stock</a></li> -->
+                            <li><a href="Faqs.php">FAQ's</a></li>
+                            <li><a href="contact-us.php">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-12">
                         <h4 class="footer-head">Quick Links</h4>
                         <ul class="footer-links">
-                            <li><a href="javascript:;">Privacy Policy</a></li>
-                            <li><a href="javascript:;">Terms & Condition</a></li>
-                            <li><a href="javascript:;">Coming Soon</a></li>
-                            <li><a href="javascript:;">Blogs</a></li>
-                            <li><a href="javascript:;">Reviews</a></li>
+                            <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                            <li><a href="Termscondition.php">Terms & Condition</a></li>
+                            <li><a href="coming-soon.php">Coming Soon</a></li>
+                            <li><a href="News.php">Blogs</a></li>
+                            <!-- <li><a href="javascript:;">Reviews</a></li> -->
                         </ul>
                     </div>
                     <div class="col-lg-4 col-12">

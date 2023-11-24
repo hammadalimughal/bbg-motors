@@ -1835,6 +1835,180 @@ h3.community-917 {
   margin: 80px 0 0 0;
 }
 
+
+
+/* faqs */
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+.accordion .accordion-item button[aria-expanded=true] {
+  border-bottom: 1px solid #d06218;
+}
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 16px 25px 16px 25px;
+}
+.accordion button:hover, .accordion button:focus {
+  cursor: pointer;
+  color: #dd9432;
+}
+.accordion button:hover::after, .accordion button:focus::after {
+  cursor: pointer;
+  color: #dd9432;
+  border: 1px solid #dd9432;
+}
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 54px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+.accordion button[aria-expanded=true] {
+  color: #d06218;
+}
+.accordion button[aria-expanded=true] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded=true] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+  padding: 0 25px 0  25px;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+.faqs-loop{
+  padding: 80px 0 80px 0;
+}
+.faqs-loop h2{
+  font-size: 30px ;
+  font-weight: 500;
+  font-family: 'Outfit';
+  margin-bottom: 20px;
+}
+.pirvacy-policy .textuer-main-policy h4{
+  color: #000;
+  font-family: 'RBNo3.1';
+  font-size: 25px;
+  padding: 5px 0 5px 0;
+}
+.pirvacy-policy .textuer-main-policy{
+  background-color: #f2f3f3;
+  padding: 20px 40px;
+}
+.pirvacy-policy{
+  padding: 80px 0 80px 0;
+}
+.pirvacy-policy .textuer-main-policy p{
+  font-family: 'Outfit';
+  color: #000;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+/* coming soon page  */
+
+section.coming-up {
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8071603641456583) 0%), url(../images/coming.jpg);
+  height: 100vh;
+  background-position: 100% 100%;
+  background-size: cover;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+
+.coming-918 img {
+  width: 30%;
+  padding: 0 0 30px 0;
+  object-fit: contain;
+}
+
+.coming-918 h3 {
+  font-size: 70px;
+  font-family: 'RBNo3.1';
+  color: #fff;
+  padding: 0 0 15px 0;
+}
+
+.coming-918 p {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Outfit';
+}
+
+
+.coming-form {
+  display: flex;
+  align-items: center;
+  padding: 30px 0 0 0;
+}
+
+.coming-form input {
+  height: 47px;
+  padding: 0 21px;
+  font-weight: 400;
+  color: #888;
+  border: 2px solid #eceff3;
+  background-color: #eceff3;
+  border-radius: 5px;
+  font-family: 'RBNo3.1' ;
+}
+
+.working-coming{
+  margin: 0 0 0 35px;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1599px) {}
@@ -1990,5 +2164,9 @@ width: 80%;
 }
 .top-header .topbar-content .navbar-brand img{
   width: 120px;
+}
+.navbar-brand{
+  margin: 0 auto;
+  display:block;
 }
 }
