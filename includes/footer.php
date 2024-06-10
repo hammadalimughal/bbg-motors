@@ -10,20 +10,20 @@
                     <div class="col-lg-4 col-12">
                         <h4 class="footer-head">Useful Links</h4>
                         <ul class="footer-links">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="About-us.php">About Us</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="About-us.html">About Us</a></li>
                             <!-- <li><a href="javascript:;">Our Stock</a></li> -->
-                            <li><a href="Faqs.php">FAQ's</a></li>
-                            <li><a href="contact-us.php">Contact Us</a></li>
+                            <li><a href="Faqs.html">FAQ's</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-12">
                         <h4 class="footer-head">Quick Links</h4>
                         <ul class="footer-links">
-                            <li><a href="privacy-policy.php">Privacy Policy</a></li>
-                            <li><a href="Termscondition.php">Terms & Condition</a></li>
-                            <li><a href="coming-soon.php">Coming Soon</a></li>
-                            <li><a href="News.php">Blogs</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="Termscondition.html">Terms & Condition</a></li>
+                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                            <li><a href="News.html">Blogs</a></li>
                             <!-- <li><a href="javascript:;">Reviews</a></li> -->
                         </ul>
                     </div>
@@ -40,7 +40,7 @@
         <div class="footer-bottom">
             <div class="row justify-content-center">
                 <div class="col-lg-5">
-                    <a href="index.php" class="footer-brand"><img class="img-fluid" src="images/logo.png" alt=""></a>
+                    <a href="index.html" class="footer-brand"><img class="img-fluid" src="images/logo.png" alt=""></a>
                     <ul class="footer-social">
                         <li><a href="javascript:;"><i class="fa-brands fa-facebook-f"></i></a></li>
                         <li><a href="javascript:;"><i class="fa-brands fa-instagram"></i></a></li>
